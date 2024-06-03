@@ -6,7 +6,7 @@ az login
 
 az account set --subscription="sid"
 
-It is recommended to create a separate service principal for deploying resources on azure.
+It is recommended to create a separate service principal for deploying resources on azure with limited permissions.
 
 https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-cloud-shell-bash?tabs=bash
 
