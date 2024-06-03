@@ -14,14 +14,22 @@ Since SQL Managed instance takes a long time to create we can use the timeout fe
 
 https://developer.hashicorp.com/terraform/language/resources/syntax#operation-timeouts
 
-resource "<resource_name>" "<resource_name>" {
-  ...
-  timeouts {
-    create = "1h30m"
-    update = "2h"
-    delete = "20m"
-  }
-}
+resource "<resource_name>" "<resource_name>" {  
+
+  ...  
+
+  timeouts {  
+
+    create = "1h30m"  
+
+    update = "2h"  
+
+    delete = "20m"  
+
+  }  
+
+}  
+
 
 
 
