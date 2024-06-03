@@ -33,6 +33,8 @@ resource "<resource_name>" "<resource_name>" {
 
 
 
-terraform init
-terraform plan
+terraform init  
+
+terraform plan  
+
 terraform apply 
