@@ -1,7 +1,9 @@
 ## Azure SQL Managed Instance
 
-az account clear
-az login
+az account clear  
+
+az login  
+
 az account set --subscription="sid"
 
 It is recommended to create a separate service principal for deploying resources on azure
